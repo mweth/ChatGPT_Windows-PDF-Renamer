@@ -10,7 +10,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 API_ENDPOINT = 'https://api.openai.com/v1/chat/completions'  # replaced with correct GPT-3.5 turbo endpoint
-API_KEY = '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'  # replace with your OpenAI key
+API_KEY = 'YOURKEY'  # replace with your OpenAI key -https://platform.openai.com/account/api-keys
 
 headers = {
     'Content-Type': 'application/json',
